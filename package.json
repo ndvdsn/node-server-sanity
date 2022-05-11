@@ -1,0 +1,23 @@
+{
+  "name": "crudserverexample",
+  "version": "1.0.0",
+  "description": "sanity app with express server to allow secure crud functionality",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Neil Davidson",
+  "license": "MIT",
+  "dependencies": {
+    "@sanity/client": "^3.3.0",
+    "concurrently": "^7.1.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
